@@ -13,7 +13,7 @@ int main() {
         nums.push_back(num);
     }
 
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n-1; i++){
         int min = i;
         for(int j=i+1; j<n; j++){
             if(nums[min] > nums[j]){
